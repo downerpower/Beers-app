@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+ion-header ion-toolbar {
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 35%;
+}
+
+ion-icon {
+  --ionicon-stroke-width: 42px;
+}
+
+.header {
+  position: fixed;
+}
+
+.header__toolbar {
+  width: 100vw;
+}
+
+.beers {
+  margin-top: 4.5rem;
+}
+
+.card,
+.card__item {
+  border-radius: 30px;
+}
+
+.card-detail {
+  overflow: scroll;
+}
+
+.card {
+  border: 3px solid white;
+  margin: 15px;
+}
+
+.card__item {
+  margin: 15px;
+}
+
+.card__picture-wrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.card__picture {
+  height: 18rem;
+}
+
+.card__header {
+  padding: 5px;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card__header ion-icon {
+  margin-bottom: -6px;
+  margin-right: 4px;
+  width: 28px;
+}
+
+.card-detail {
+  height: 100%;
+  margin: 0;
+}
+
+.card-detail__picture {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0px 13px 26px 1px rgba(157, 154, 154, 0.45);
+  -webkit-box-shadow: 0px 13px 26px 1px rgba(157, 154, 154, 0.45);
+  -moz-box-shadow: 0px 13px 26px 1px rgba(157, 154, 154, 0.45);
+  border-radius: 0 0 40px 40px;
+}
+
+.card-detail__picture ion-item {
+  position: absolute;
+  left: 3%;
+  top: 3%;
+}
+
+.card-detail__picture img {
+  max-width: 55%;
+  max-height: 20rem;
+}
+
+.card-detail__header {
+  position: relative;
+}
+
+.card-detail__title {
+  width: 90%;
+  color: #00696f !important;
+  font-size: 150%;
+  font-weight: 600;
+}
+
+.card-detail__header ion-icon {
+  position: absolute;
+  right: 3%;
+  top: 25%;
+}
+
+.card-detail__content {
+  color: #989a9e;
+  font-size: 110%;
+}
+
+.card-detail__chips {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card-detail__chips ion-chip {
+  font-size: 95%;
+}
+
+.modal__title {
+  font-size: 150%;
+}
+
+.modal__empty {
+  font-size: 130%;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.modal__label {
+  position: relative;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.modal__label h2 {
+  width: 90%;
+  font-size: 130%;
+}
+
+.modal__label ion-icon {
+  position: absolute;
+  right: 0;
+  top: 13%;
+}
+
+.modal__avatar {
+  width: 8%;
+  height: fit-content;
+}
+
+.modal__avatar ion-img {
+  height: 5rem;
+  padding: 7px;
+}
+
+.loading {
+  font-size: 1.4rem;
+}
+
+.infinite-loading-text {
+  color: white !important;
+}
+
+ion-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(3);
+}
+
+.toast {
+  font-size: 1.4rem;
+  text-align: center;
+}
